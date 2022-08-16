@@ -26,5 +26,4 @@ function plusMinus(arr) {
    console.log(positiveLength/arrayLength)
    console.log(negativeLength/arrayLength)
    console.log(zeroesLength/arrayLength)
-
 }
