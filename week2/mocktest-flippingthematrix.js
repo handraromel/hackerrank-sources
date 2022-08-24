@@ -3,8 +3,8 @@ function flippingMatrix(matrix) {
     let lengthM = matrix.length -1;
     let halfM = matrix.length/2;
     let finalArr = []
-    for(var i = 0 ; i<halfM; i++ ){
-        for (var j =0; j< halfM; j ++){
+    for(var i = 0 ; i < halfM; i++ ){
+        for (var j =0; j < halfM; j++){
             let a1 = matrix[i][j];
             let a2 = matrix[i][lengthM-j]
             let a3 = matrix[lengthM-i][j]
